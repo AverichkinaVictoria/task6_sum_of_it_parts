@@ -1,5 +1,11 @@
 // parts.h
 
+////////////////////////////////////////////////////////////////////////////////
+// Student:      Averichkina Victoria
+// Group:        184-1
+// Date:         19.10.2019
+////////////////////////////////////////////////////////////////////////////////
+
 #ifndef _PARTS_H_
 #define _PARTS_H_
 
@@ -17,6 +23,7 @@ public:
     Part(string const &n) : name(n) {};
     void describe(void);
     int count_howmany(Part const *p);
+    map <Part*,int> subparts;
 };
 
 //**************** NameContainer ****************
